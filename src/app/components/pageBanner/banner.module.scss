@@ -1,0 +1,33 @@
+.banner {
+  background: linear-gradient(
+      142deg,
+      rgba(255, 160, 72, 0.12) -10.14%,
+      rgba(255, 160, 72, 0) 56.07%
+    ),
+    #fff;
+
+  overflow: hidden;
+  .banner-img-col {
+    img {
+      height: 580px;
+      width: 100%;
+    }
+  }
+  .banner-text-col {
+    display: flex;
+    align-items: center;
+    .content {
+      padding: 40px 17% 5% 20px;
+      width: 656px;
+      margin-left: auto;
+      margin-right: 0;
+      @media (min-width: 992px) {
+        padding-right: 0%;
+      }
+      @media (max-width:768px) {
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+    }
+  }
+}

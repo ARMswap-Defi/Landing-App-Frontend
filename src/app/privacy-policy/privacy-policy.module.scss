@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    .sectionContent {
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .headingList {
+      position: sticky;
+      top: 0;
+      .headingItem {
+        padding: 10px;
+        cursor: pointer;
+        &.active {
+          font-weight: bold;
+          background-color: #f0f0f0;
+        }
+      }
+    }
+    .privacy-policy_active__w7alI{
+      font-weight: 700;
+    }
+  }
