@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /api/
+Allow: /
+
+
+
+Sitemap: https://armswap.com/sitemap.xml
+
